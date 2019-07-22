@@ -1,0 +1,67 @@
+div.div_left {
+    position: relative;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background-color: #5DB7E9;
+    text-align: center;
+    position: fixed;
+}
+
+footer {
+    height: 1cm;
+    background-color: white;
+    text-align: left;
+    vertical-align: auto;
+    padding: 30px 50px;
+}
+
+div.div_right {
+    position: absolute;
+    left: 50%;
+    background-image: url("../img/bg_dot.jpg");
+    text-align: center;
+}
+
+#middle {
+    padding: 50px 50px 20px 50px
+}
+
+table {
+    border: 0px;
+    border-spacing: 1rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    vertical-align: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    height: 50px;
+}
+
+tr {
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+tr:first-child {
+    color: white;
+    background-color: #5DB7E9;
+}
+
+body {
+    line-height: 24px;
+}
+
+.ticket:hover {opacity: 0.7;
+
+}
