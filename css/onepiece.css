@@ -8,6 +8,7 @@ div.div_left {
     position: fixed;
 }
 
+
 footer {
     height: 1cm;
     background-color: white;
@@ -60,8 +61,11 @@ tr:first-child {
 
 body {
     line-height: 24px;
+    padding: 0;
+    margin: 0;
 }
 
-.ticket:hover {opacity: 0.7;
+.ticket:hover {
+    opacity: 0.7;
 
 }
